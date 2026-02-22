@@ -16,12 +16,12 @@ export default async function FilmDetailPage({
     const film = await getFilmById(id);
 
     return (
-      <main className="page stack-6">
+      <main className="page">
         <Link className="text-sm text-neutral-600 hover:underline" href="/lab-1">
           ← Back to explorer
         </Link>
 
-        <header className="stack-4">
+        <header className="">
           <h1 className="text-3xl font-semibold">{film.title}</h1>
 
           <div className="relative aspect-[16/6] w-full overflow-hidden rounded-lg bg-neutral-100">

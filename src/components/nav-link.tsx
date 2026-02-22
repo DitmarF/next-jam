@@ -13,7 +13,7 @@ export default function NavLink({ href, label }: NavItem) {
     return <Link 
         href={href} 
         className={`hover:text-blue-500 ${isActive ? 'text-blue-500' : 'text-gray-500'}`}
-        aria-current={'page'}
+        aria-current={isActive ? 'page' : undefined}
         aria-label={label}
     >{label}</Link>;
     

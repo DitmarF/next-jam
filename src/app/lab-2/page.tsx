@@ -1,6 +1,5 @@
 // src/app/lab-2/page.tsx
 
-// src/app/lab-2/page.tsx
 import { listTodos } from "@/lib/todo/store";
 import { addTodo, deleteTodo } from "./actions";
 import TodoForm from "@/components/lab-2/todo-form";

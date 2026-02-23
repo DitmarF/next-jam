@@ -2,7 +2,7 @@
 
 import { useRouter, usePathname } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { SearchParams } from "@/lib/lab-1/search";
+import type { SearchParams } from "@/lib/ghibli/search";
 
 const DEBOUNCE_MS = 300;
 

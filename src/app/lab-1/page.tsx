@@ -1,7 +1,7 @@
 // src/app/lab-1/page.tsx
 
 import { getFilms } from "@/lib/ghibli/films";
-import { parseSearch } from "@/lib/lab-1/search";
+import { parseSearch } from "@/lib/ghibli/search";
 import FilmGrid from "@/components/lab-1/film-grid";
 import Lab1Filters from "@/components/lab-1/lab-1-filters";
 

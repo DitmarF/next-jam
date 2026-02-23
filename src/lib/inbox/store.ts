@@ -1,3 +1,4 @@
+// src/lib/inbox/store.ts
 export type InboxEvent = {
     id: string
     ts: number

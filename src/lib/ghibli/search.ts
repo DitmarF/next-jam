@@ -1,3 +1,4 @@
+// src/lib/ghibli/search.ts
 import { z } from "zod";
 
 const first = (v: string | string[] | undefined) =>
